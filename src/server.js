@@ -31,7 +31,7 @@ class Server {
   }
   // initialize server
   async initializeServer(app) {
-    const PORT = 3334;
+    const PORT = 3333;
     app.listen(PORT, () => console.log(`Servidor executando na porta ${PORT}`));
   }
   async routes(app) {
